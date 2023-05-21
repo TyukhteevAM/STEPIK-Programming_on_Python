@@ -19,4 +19,3 @@ with open('C:/Users/79825/Desktop/text.txt', 'r+', encoding='utf-8') as file, op
         out.write(str(d) + '\n')
     # считаю ср. арифм по каждому предмету и пишу в файсл с новой строки
     out.write(str(math / len(a)) + ' ' + str(phys / len(a)) + str(rus / len(a)))
-
